@@ -3,12 +3,17 @@
 
 Guía completa para instalar **Tekken 5 Dark Resurrection** en RPCS3 y jugar online mediante **RPCN**.
 
+## ⚖️ Descargo de responsabilidad legal
+
+Este tutorial es únicamente para fines educativos. La descarga e instalación de juegos implica derechos de autor; asegúrate de poseer una copia legal del juego antes de proceder. No nos responsabilizamos por el uso indebido de esta información.
+
 > ⚠️ Esta guía está pensada para mantener una estructura ordenada. Se recomienda seguirla exactamente.
 
 ---
 
 ## 📑 Índice
 
+- [Descargo de responsabilidad legal](#⚖️-descargo-de-responsabilidad-legal)
 - [1. Requisitos](#1-requisitos)
 - [2. Estructura de carpetas](#2-estructura-de-carpetas)
 - [3. Instalación de RPCS3](#3-instalación-de-rpcs3)
@@ -26,17 +31,17 @@ Descargar los siguientes archivos:
 
 - RPCS3 → **https://rpcs3.net/** 
 
-Seleccionen "Download" en la pantalla principal y luego en la sección "Windows" seleccionen "Download for x64"
+Selecciona "Download" en la pantalla principal y luego, en la sección "Windows", selecciona "Download for x64"
 
 - Firmware de PS3 `PS3UPDAT.PUP` → **https://www.playstation.com/en-us/support/hardware/ps3/system-software/** 
 
-De aqui seleccionen "Update using a computer" y denle click derecho a "Download PS3 Update" y seleccionen "Guardar vínculo como", su navegador acusará de ser un archivo malicioso pero deben aceptar la descarga en el gestor de descargas de su navegador 
+Desde aquí, selecciona "Update using a computer", haz clic derecho en "Download PS3 Update" y selecciona "Guardar vínculo como". Tu navegador advertirá que es un archivo potencialmente malicioso, pero acepta la descarga en el gestor de descargas de tu navegador 
 
 ![PS3UPDAT.PUP](images/PS3UPDAT.png)
 
 - Tekken 5 DR → **https://romspure.cc/download/tekken-5-dark-resurrection-online-110121/5** 
 
-Deben esperar unos segundos antes que se les aparezca el botón amarillo "Download (590.92 M)" y descargar.
+Espera unos segundos hasta que aparezca el botón amarillo "Download (590.92 M)" y descárgalo.
 
 ---
 
@@ -57,31 +62,31 @@ PS3/
 
 ## 3. Instalación de RPCS3
 
-1. Click derecho sobre el archivo descargado
+1. Haz clic derecho sobre el archivo descargado
 
-2. Seleccionar **"Extraer todo"** (Windows 10 / 11)
+2. Selecciona **"Extraer todo"** (Windows 10 / 11)
 
    ![Extraer todo](<images/Extraer todo Windows 11.png>)
 
-3. Eliminar el archivo comprimido
+3. Elimina el archivo comprimido
 
-4. Renombrar la carpeta a:
+4. Renombra la carpeta a:
 
 ```
 RPCS3
 ```
 
-5. Entrar en la carpeta y ejecutar:
+5. Entra en la carpeta y ejecuta:
 
 ```
 rpcs3.exe
 ```
 
-6. En la pantalla bienvenida de RPCS3:
+6. En la pantalla de bienvenida de RPCS3:
 
-   * Desmarcar **"Show at startup"** (opcional)
-   * Marcar **"I have read the Quickstart guide"** (requerido)
-   * Click en **Continue**
+   * Desmarca **"Show at startup"** (opcional)
+   * Marca **"I have read the Quickstart guide"** (requerido)
+   * Haz clic en **Continue**
 
    ![RPCS3 Onboarding](<images/RPCS3 Quickstart.png>)
 
@@ -95,13 +100,13 @@ rpcs3.exe
    File > Install Firmware
    ```
 
-2. Seleccionar el archivo:
+2. Selecciona el archivo:
 
    ```
    PS3UPDAT.PUP
    ```
 
-3. Esperar a que finalice la instalación
+3. Espera a que finalice la instalación
 
 ✅ RPCS3 queda listo para usar.
 
@@ -115,11 +120,11 @@ rpcs3.exe
    File > Install Packages
    ```
 
-2. Abrir la carpeta Descomprimir el juego:
+2. Extrae el archivo del juego:
 
-   * Click derecho en el archivo del juego → **"Extraer todo"**
+   * Haz clic derecho en el archivo del juego → **"Extraer todo"**
 
-3. Abrir la carpeta `PS3` y luego dentro de la carpeta deben existir **2 archivos**:
+3. Abre la carpeta `PS3` y verifica que contenga **2 archivos**:
 
    * Archivo del juego
    * Archivo de licencia
@@ -152,20 +157,20 @@ rpcs3.exe
 
 2. En **Account**:
 
-   * Click en **Create Account**
-   * Completar en cada formulario:
+   * Haz clic en **Create Account**
+   * Completa en cada formulario:
 
      * Usuario
      * Contraseña
      * Email válido
 
-3. Confirmar con **Yes**
+3. Confirma con **Yes**
 
-4. Ingresar el **Token** recibido por email
+4. Ingresa el **Token** recibido por email
 
-5. Click en **OK**
+5. Haz clic en **OK**
 
-6. Verificar con el botón:
+6. Verifica con el botón:
 
    ```
    Test Account
@@ -203,15 +208,13 @@ Guardar cambios con:
 
 ## 7. Primer inicio del juego
 
-1. Abrir el juego
+1. Abre el juego
 
-2. Aceptar descarga de datos adicionales con (**Yes**)
+2. Acepta la descarga de datos adicionales con (**Yes**)
 
    ![RPCS3 screenshot](<images/Tekken 5 onboarding.png>)
 
-3. Reiniciar el emulador cuando termine la descarga:
-
-   * `Alt + F4` o cerrar ventana
+3. Reinicia el emulador una vez que termine la descarga (usa `Alt + F4` o cierra la ventana).
 
 Al abrir el juego nuevamente, no será más necesario descargar esos datos y el juego avanzará normalmente hasta el menú principal. Desde aquí ya pueden modificar los botones a su gusto en Settings o iniciar el online en Online Battle.
 
