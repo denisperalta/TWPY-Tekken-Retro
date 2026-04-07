@@ -175,7 +175,7 @@ rpcs3.exe
    ```
    Test Account
    ```
-   ![RPCS3 screenshot](<images/Account Valid.png>)
+   ![RPCS3 screenshot](<images/Account valid.png>)
 
 ---
 
