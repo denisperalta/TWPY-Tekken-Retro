@@ -53,7 +53,7 @@ La estructura final al descargar los archivos debe verse así:
 ```
 PS3/
 ├── RPCS3/
-├── PS3UPDAT.PUP
+└── PS3UPDAT.PUP
 ```
 
 ---
@@ -68,17 +68,9 @@ PS3/
 
 3. Elimina el archivo comprimido
 
-4. Renombra la carpeta a:
+4. Renombra la carpeta a `RPCS3`
 
-```
-RPCS3
-```
-
-5. Entra en la carpeta y ejecuta:
-
-```
-rpcs3.exe
-```
+5. Entra en la carpeta y ejecuta `rpcs3.exe`
 
 6. En la pantalla de bienvenida de RPCS3:
 
@@ -98,11 +90,7 @@ rpcs3.exe
    File > Install Firmware
    ```
 
-2. Selecciona el archivo:
-
-   ```
-   PS3UPDAT.PUP
-   ```
+2. Selecciona el archivo `PS3UPDAT.PUP`
 
 3. Espera a que finalice la instalación
 
@@ -135,11 +123,8 @@ rpcs3.exe
 
 5. Haz clic en **OK**
 
-6. Verifica con el botón:
+6. Verifica con el botón `Test Account`, si aparece la imagen con el texto "Your account is valid!" el proceso se terminó correctamente.
 
-   ```
-   Test Account
-   ```
    ![RPCS3 screenshot](<images/Account valid.png>)
 
 ---
@@ -163,11 +148,7 @@ Configurar de la siguiente manera:
 
 ![RPCS3 screenshot](<images/Network Settings.png>)
 
-Guardar cambios con:
-
-```
-"Apply" y luego "Save"
-```
+Guardar cambios con `"Apply" y luego "Save"`
 
 ---
 
@@ -176,8 +157,6 @@ Guardar cambios con:
 ### 6.1 Tekken 5 DR
 
 1. Tekken 5 DR → **https://drive.proton.me/urls/TACT6M3FYR#szwv6YH19THH** 
-
-> Espera unos segundos hasta que aparezca el botón amarillo "Download (590.92 M)" y descárgalo.
 
 2. Añádelo a la carpeta PS3 creada en los pasos anteriores. La estructura debería verse así:
 
@@ -205,11 +184,7 @@ Guardar cambios con:
 
 6. Seleccionar ambos archivos dentro de la carpeta extraída y hacer click en **Abrir**
 
-7. Dejamos todos los ajustes en predeterminado, Click en:
-
-   ```
-   Install
-   ```
+7. Dejamos todos los ajustes en predeterminado, Click en `Install`
 
 8. Esperar a que termine la instalación
 
@@ -264,7 +239,7 @@ En Online Battle usar únicamente:
 
    * Haz clic derecho en el archivo del juego → **"Extraer todo"**
 
-4. Copiar el archivo .iso recién descargado adentro de la carpeta del emulador RPCS3, en la carpeta "games"
+4. Copiar el archivo .iso recién descargado adentro de la carpeta del emulador RPCS3, en la carpeta `"games"`
 
 5. Descargar la actualización del juego: **https://drive.proton.me/urls/KAXRA8S6R4#D3aYF8yFbsOG**
 
@@ -280,11 +255,7 @@ En Online Battle usar únicamente:
 
 8. Seleccionar ambos archivos dentro de la carpeta extraída y hacer click en **Abrir**
 
-9. Dejamos todos los ajustes en predeterminado, Click en:
-
-   ```
-   Install
-   ```
+9. Dejamos todos los ajustes en predeterminado, Click en `Install`
 
 10. Esperar a que termine la instalación
 
@@ -332,11 +303,7 @@ En Online Battle usar únicamente:
 
 8. Seleccionar **solamente los archivos DLC y Online Pass** dentro de la carpeta extraída y hacer click en **Abrir**
 
-9. Dejamos todos los ajustes en predeterminado, Click en:
-
-   ```
-   Install
-   ```
+9. Dejamos todos los ajustes en predeterminado, Click en `Install`
 
 10. Iniciar el juego normalmente, terminar una batalla (Puede ser en Arcade Battle) y cerrar el juego
 
@@ -346,11 +313,7 @@ En Online Battle usar únicamente:
       File > Install Packages
       ```
 
-12. Dejamos todos los ajustes en predeterminado, Click en:
-
-      ```
-      Install
-      ```
+12. Dejamos todos los ajustes en predeterminado, Click en `Install`
 
 13. Seleccionar **solamente los archivos de actualización** dentro de la carpeta extraída y hacer click en **Abrir**
 
