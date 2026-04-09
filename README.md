@@ -285,7 +285,7 @@ En Online Battle usar únicamente:
 
    * Haz clic derecho en el archivo del juego → **"Extraer todo"**
 
-4. Copiar el archivo .iso recién descargado adentro de la carpeta del emulador RPCS3, en la carpeta "games"
+4. Copiar el archivo .iso recién descargado adentro de la carpeta del emulador RPCS3, en la carpeta `"games"`
 
 5. Descargar la actualización y DLC del juego: **https://drive.proton.me/urls/QJJH4P2PX8#nYDYCDrPlMfe**
 
