@@ -36,7 +36,7 @@ Selecciona "Download" en la pantalla principal y luego, en la sección "Windows"
 
 - Firmware de PS3 `PS3UPDAT.PUP` → **https://www.playstation.com/en-us/support/hardware/ps3/system-software/** 
 
-Desde aquí, selecciona "Update using a computer", haz clic derecho en "Download PS3 Update" y selecciona "Guardar vínculo como". Tu navegador advertirá que es un archivo potencialmente malicioso, pero acepta la descarga en el gestor de descargas de tu navegador 
+Desde aquí, selecciona `"Update using a computer"`, haz clic derecho en `"Download PS3 Update"` y selecciona `"Guardar vínculo como"`. Tu navegador advertirá que es un archivo potencialmente malicioso, pero acepta la descarga en el gestor de descargas de tu navegador 
 
 ![PS3UPDAT.PUP](images/PS3UPDAT.png)
 
@@ -60,7 +60,7 @@ PS3/
 
 ## 3. Instalación de RPCS3
 
-1. Haz clic derecho sobre el archivo descargado
+1. Haz clic derecho sobre el archivo de RPCS3 descargado
 
 2. Selecciona **"Extraer todo"** (Windows 10 / 11)
 
@@ -68,7 +68,7 @@ PS3/
 
 3. Elimina el archivo comprimido
 
-4. Renombra la carpeta a `RPCS3`
+4. Renombra la carpeta a `RPCS3` para mejor organización.
 
 5. Entra en la carpeta y ejecuta `rpcs3.exe`
 
@@ -92,7 +92,7 @@ PS3/
 
 2. Selecciona el archivo `PS3UPDAT.PUP`
 
-3. Espera a que finalice la instalación
+3. Espera a que finalice la instalación.
 
 ✅ RPCS3 queda listo para usar.
 
@@ -131,7 +131,7 @@ PS3/
 
 ### Configurar red
 
-En el borde superior del emulador ir a:
+En el menú superior del emulador ir a:
 
 ```
 Configuration > Network
@@ -142,7 +142,7 @@ Configurar de la siguiente manera:
 | Opción         | Valor     |
 | -------------- | --------- |
 | Network Status | Connected |
-| Enable UPNP    | Enabled   |
+| Enable UPNP    | Activar   |
 | PSN Status     | RPCN      |
 | Country        | Paraguay  |
 
@@ -196,7 +196,7 @@ Guardar cambios con `"Apply" y luego "Save"`
 
    ![RPCS3 screenshot](<images/Tekken 5 onboarding.png>)
 
-11. Reinicia el emulador una vez que termine la descarga (usa `Alt + F4` o cierra la ventana).
+11. El juego pedirá reiniciar el juego una vez que termine la descarga. Puedes cerrar la ventana del juego (usa `Alt + F4` o cierra la ventana).
 
 Al abrir el juego nuevamente, no será más necesario descargar esos datos y el juego avanzará normalmente hasta el menú principal. Desde aquí ya pueden modificar los botones a su gusto en Settings o iniciar el online en Online Battle.
 
@@ -228,11 +228,7 @@ En Online Battle usar únicamente:
 
 2. Descargar la actualización del juego: **https://drive.proton.me/urls/KAXRA8S6R4#D3aYF8yFbsOG**
 
-3. Abre la carpeta extraída y verifica que contenga **1 archivo**:
-
-   * Archivo de la actualización
-
-4. Añádelo a la carpeta PS3 creada en los pasos anteriores. La estructura debería verse así:
+3. Añádelo a la carpeta PS3 creada en los pasos anteriores. La estructura debería verse así:
 
    ```
    PS3/
@@ -242,23 +238,23 @@ En Online Battle usar únicamente:
    └── Tekken 6 Actualización
    ```
 
-5. Extrae el archivo del juego:
+4. Extrae el archivo del juego:
 
    * Haz clic derecho en el archivo del juego → **"Extraer todo"**
 
-6. Copiar el archivo .iso recién descargado adentro de la carpeta del emulador RPCS3, en la carpeta `"games"`
+5. Copiar el archivo .iso de la carpeta de juego adentro de la carpeta del emulador RPCS3, en la carpeta `"games"`
 
-7. En RPCS3, En el borde superior del emulador ir a:
+6. En RPCS3, En el borde superior del emulador ir a:
 
    ```
    File > Install Packages
    ```
 
-8. Extrae y selecciona el archivo dentro de la carpeta de actualización y hacer click en **Abrir**
+7. Extrae y selecciona el archivo dentro de la carpeta de actualización y hacer click en **Abrir**
 
-9. Dejamos todos los ajustes en predeterminado, Click en `Install`
+8. Dejamos todos los ajustes en predeterminado, Click en `Install`
 
-10. Esperar a que termine la instalación
+9. Esperar a que termine la instalación
 
    ![RPCS3 Install game](<images/T6 Configuring Game.png>)
 
@@ -266,6 +262,8 @@ En Online Battle usar únicamente:
 
 ---
 ### 6.3 Tekken Tag Tournament 2
+
+**Se recomienda leer todos los pasos del guía de TTT2 de antemano antes de seguir, puesto que es bastante extenso y arreglar errores toma bastante tiempo.**
 
 ⚠️ *Cuidado con la descarga de archivos maliciosos, asegúrate que el archivo sea Tekken Tag Tournament 2 y pese aproximadamente 17 GB* ⚠️ 
 
@@ -289,7 +287,7 @@ En Online Battle usar únicamente:
 
    * Haz clic derecho en el archivo del juego → **"Extraer todo"**
 
-5. Copiar el archivo .iso recién descargado adentro de la carpeta del emulador RPCS3, en la carpeta `"games"`
+5. Copiar el archivo .iso de la carpeta de juego adentro de la carpeta del emulador RPCS3, en la carpeta `"games"`
 
 6. En RPCS3, En el borde superior del emulador ir a:
 
@@ -309,13 +307,15 @@ En Online Battle usar únicamente:
       File > Install Packages
       ```
 
-11. Dejamos todos los ajustes en predeterminado, Click en `Install`
+11. Seleccionar **solamente los archivos de actualización** dentro de la carpeta de actualización y DLC. Hacer click en **Abrir**
 
-12. Seleccionar **solamente los archivos de actualización** dentro de la carpeta de actualización y DLC. Hacer click en **Abrir**
+12. Dejamos todos los ajustes en predeterminado, Click en `Install`
 
 13. Esperar a que termine la instalación
 
    ![RPCS3 Install game](<images/TTT2 Configuring Game.png>)
+
+14. Para que los colores del juego se muestren correctamente, se recomienda activar la siguiente configuración: - [¿Por qué los colores en TTT2 se muestran mal?](#por-qué-los-colores-en-ttt2-se-muestran-mal)
 
 ✅ **Tekken Tag Tournament 2** instalado y listo para jugar online.
 
@@ -357,5 +357,9 @@ Puedes contactar a Rushador Cuidadoso de Tekken Warriors PY para soporte adicion
 ### ¿Por qué los colores en TTT2 se muestran mal?
 
 Para que los colores se muestren correctamente, en la configuración de GPU del emulador deben activar Write Color Buffers como en la imagen abajo:
+
+Para acceder a esta ventana, se debe darle click derecho al juego y seleccionar `Create Custom Configuration From Default Settings`.
+
+De esta manera, esta configuración se aplicará solamente a TTT2.
 
 ![RPCS3 Install game](<images/Color Buffer.png>)
